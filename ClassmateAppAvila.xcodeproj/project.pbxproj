@@ -17,6 +17,8 @@
 		C807D5B52AD6E5A500798168 /* ClassmateAppAvilaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C807D5B42AD6E5A500798168 /* ClassmateAppAvilaTests.swift */; };
 		C807D5BF2AD6E5A500798168 /* ClassmateAppAvilaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C807D5BE2AD6E5A500798168 /* ClassmateAppAvilaUITests.swift */; };
 		C807D5C12AD6E5A500798168 /* ClassmateAppAvilaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C807D5C02AD6E5A500798168 /* ClassmateAppAvilaUITestsLaunchTests.swift */; };
+		C807D5CE2AD6E95800798168 /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = C807D5CD2AD6E95700798168 /* ViewController2.swift */; };
+		C807D5D02AD6EB1B00798168 /* Classmate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C807D5CF2AD6EB1B00798168 /* Classmate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		C807D5BA2AD6E5A500798168 /* ClassmateAppAvilaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClassmateAppAvilaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C807D5BE2AD6E5A500798168 /* ClassmateAppAvilaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassmateAppAvilaUITests.swift; sourceTree = "<group>"; };
 		C807D5C02AD6E5A500798168 /* ClassmateAppAvilaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassmateAppAvilaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C807D5CD2AD6E95700798168 /* ViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
+		C807D5CF2AD6EB1B00798168 /* Classmate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Classmate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +109,8 @@
 				C807D59C2AD6E5A300798168 /* SceneDelegate.swift */,
 				C807D59E2AD6E5A300798168 /* ViewController.swift */,
 				C807D5A02AD6E5A300798168 /* Main.storyboard */,
+				C807D5CD2AD6E95700798168 /* ViewController2.swift */,
+				C807D5CF2AD6EB1B00798168 /* Classmate.swift */,
 				C807D5A62AD6E5A500798168 /* Assets.xcassets */,
 				C807D5A82AD6E5A500798168 /* LaunchScreen.storyboard */,
 				C807D5AB2AD6E5A500798168 /* Info.plist */,
@@ -261,10 +267,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C807D5CE2AD6E95800798168 /* ViewController2.swift in Sources */,
 				C807D59F2AD6E5A300798168 /* ViewController.swift in Sources */,
 				C807D5A52AD6E5A300798168 /* ClassmateAppAvila.xcdatamodeld in Sources */,
 				C807D59B2AD6E5A300798168 /* AppDelegate.swift in Sources */,
 				C807D59D2AD6E5A300798168 /* SceneDelegate.swift in Sources */,
+				C807D5D02AD6EB1B00798168 /* Classmate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

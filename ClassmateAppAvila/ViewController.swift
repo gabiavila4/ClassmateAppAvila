@@ -14,6 +14,18 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
 
+    
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        let nvc = segue.destination as! ViewController2
+        
+    }
+    
+    @IBAction func classmateAction(_ sender: UIButton) {
+        performSegue(withIdentifier: "toMain", sender: self)
+    }
+    
+    
 
 }
 
