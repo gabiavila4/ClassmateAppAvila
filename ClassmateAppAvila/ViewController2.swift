@@ -8,6 +8,9 @@
 import UIKit
 
 class ViewController2: UIViewController {
+    
+    var classmates : [Classmate] = []
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
