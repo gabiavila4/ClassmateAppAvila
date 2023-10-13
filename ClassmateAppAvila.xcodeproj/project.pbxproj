@@ -19,6 +19,7 @@
 		C807D5C12AD6E5A500798168 /* ClassmateAppAvilaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C807D5C02AD6E5A500798168 /* ClassmateAppAvilaUITestsLaunchTests.swift */; };
 		C807D5CE2AD6E95800798168 /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = C807D5CD2AD6E95700798168 /* ViewController2.swift */; };
 		C807D5D02AD6EB1B00798168 /* Classmate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C807D5CF2AD6EB1B00798168 /* Classmate.swift */; };
+		C8ED01262AD8F6B30072F430 /* ViewController3.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8ED01252AD8F6B30072F430 /* ViewController3.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		C807D5C02AD6E5A500798168 /* ClassmateAppAvilaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassmateAppAvilaUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		C807D5CD2AD6E95700798168 /* ViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
 		C807D5CF2AD6EB1B00798168 /* Classmate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Classmate.swift; sourceTree = "<group>"; };
+		C8ED01252AD8F6B30072F430 /* ViewController3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController3.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +112,7 @@
 				C807D59E2AD6E5A300798168 /* ViewController.swift */,
 				C807D5A02AD6E5A300798168 /* Main.storyboard */,
 				C807D5CD2AD6E95700798168 /* ViewController2.swift */,
+				C8ED01252AD8F6B30072F430 /* ViewController3.swift */,
 				C807D5CF2AD6EB1B00798168 /* Classmate.swift */,
 				C807D5A62AD6E5A500798168 /* Assets.xcassets */,
 				C807D5A82AD6E5A500798168 /* LaunchScreen.storyboard */,
@@ -204,6 +207,7 @@
 				TargetAttributes = {
 					C807D5962AD6E5A300798168 = {
 						CreatedOnToolsVersion = 14.3.1;
+						LastSwiftMigration = 1500;
 					};
 					C807D5AF2AD6E5A500798168 = {
 						CreatedOnToolsVersion = 14.3.1;
@@ -272,6 +276,7 @@
 				C807D5A52AD6E5A300798168 /* ClassmateAppAvila.xcdatamodeld in Sources */,
 				C807D59B2AD6E5A300798168 /* AppDelegate.swift in Sources */,
 				C807D59D2AD6E5A300798168 /* SceneDelegate.swift in Sources */,
+				C8ED01262AD8F6B30072F430 /* ViewController3.swift in Sources */,
 				C807D5D02AD6EB1B00798168 /* Classmate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -447,6 +452,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = U4GPKHMJ2U;
@@ -465,6 +471,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = clc.ClassmateAppAvila;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "ClassmateAppAvila-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -475,6 +483,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = U4GPKHMJ2U;
@@ -493,6 +502,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = clc.ClassmateAppAvila;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "ClassmateAppAvila-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

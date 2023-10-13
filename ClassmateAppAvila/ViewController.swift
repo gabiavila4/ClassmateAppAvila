@@ -19,7 +19,7 @@ class ViewController: UIViewController {
     
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        let nvc = segue.destination as! ViewController2
+       // let nvc = segue.destination as! ViewController2
         
     }
     
@@ -27,6 +27,9 @@ class ViewController: UIViewController {
         performSegue(withIdentifier: "toMain", sender: self)
     }
     
+    @IBAction func quizAction(_ sender: UIButton) {
+        performSegue(withIdentifier: "toQuiz", sender: self)
+    }
     
 
 }

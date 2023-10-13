@@ -12,7 +12,7 @@ public class Classmate{
     var nickname : String
     
     
-    enum Rating{
+    enum Rating : String{
         case fire
         case mid
         case trash
