@@ -19,6 +19,13 @@ class ViewController: UIViewController {
     
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "toMain"
+        {
+            
+        }else
+        {
+            
+        }
        // let nvc = segue.destination as! ViewController2
         
     }
