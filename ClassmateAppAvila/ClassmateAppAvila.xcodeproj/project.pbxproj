@@ -1,0 +1,642 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C807D59B2AD6E5A300798168 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C807D59A2AD6E5A300798168 /* AppDelegate.swift */; };
+		C807D59D2AD6E5A300798168 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C807D59C2AD6E5A300798168 /* SceneDelegate.swift */; };
+		C807D59F2AD6E5A300798168 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C807D59E2AD6E5A300798168 /* ViewController.swift */; };
+		C807D5A22AD6E5A300798168 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C807D5A02AD6E5A300798168 /* Main.storyboard */; };
+		C807D5A52AD6E5A300798168 /* ClassmateAppAvila.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C807D5A32AD6E5A300798168 /* ClassmateAppAvila.xcdatamodeld */; };
+		C807D5A72AD6E5A500798168 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C807D5A62AD6E5A500798168 /* Assets.xcassets */; };
+		C807D5AA2AD6E5A500798168 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C807D5A82AD6E5A500798168 /* LaunchScreen.storyboard */; };
+		C807D5B52AD6E5A500798168 /* ClassmateAppAvilaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C807D5B42AD6E5A500798168 /* ClassmateAppAvilaTests.swift */; };
+		C807D5BF2AD6E5A500798168 /* ClassmateAppAvilaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C807D5BE2AD6E5A500798168 /* ClassmateAppAvilaUITests.swift */; };
+		C807D5C12AD6E5A500798168 /* ClassmateAppAvilaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C807D5C02AD6E5A500798168 /* ClassmateAppAvilaUITestsLaunchTests.swift */; };
+		C807D5CE2AD6E95800798168 /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = C807D5CD2AD6E95700798168 /* ViewController2.swift */; };
+		C807D5D02AD6EB1B00798168 /* Classmate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C807D5CF2AD6EB1B00798168 /* Classmate.swift */; };
+		C8ED01262AD8F6B30072F430 /* ViewController3.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8ED01252AD8F6B30072F430 /* ViewController3.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C807D5B12AD6E5A500798168 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C807D58F2AD6E5A300798168 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C807D5962AD6E5A300798168;
+			remoteInfo = ClassmateAppAvila;
+		};
+		C807D5BB2AD6E5A500798168 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C807D58F2AD6E5A300798168 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C807D5962AD6E5A300798168;
+			remoteInfo = ClassmateAppAvila;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C807D5972AD6E5A300798168 /* ClassmateAppAvila.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ClassmateAppAvila.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C807D59A2AD6E5A300798168 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C807D59C2AD6E5A300798168 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		C807D59E2AD6E5A300798168 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C807D5A12AD6E5A300798168 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C807D5A42AD6E5A300798168 /* ClassmateAppAvila.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ClassmateAppAvila.xcdatamodel; sourceTree = "<group>"; };
+		C807D5A62AD6E5A500798168 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C807D5A92AD6E5A500798168 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C807D5AB2AD6E5A500798168 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C807D5B02AD6E5A500798168 /* ClassmateAppAvilaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClassmateAppAvilaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C807D5B42AD6E5A500798168 /* ClassmateAppAvilaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassmateAppAvilaTests.swift; sourceTree = "<group>"; };
+		C807D5BA2AD6E5A500798168 /* ClassmateAppAvilaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClassmateAppAvilaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C807D5BE2AD6E5A500798168 /* ClassmateAppAvilaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassmateAppAvilaUITests.swift; sourceTree = "<group>"; };
+		C807D5C02AD6E5A500798168 /* ClassmateAppAvilaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassmateAppAvilaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C807D5CD2AD6E95700798168 /* ViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
+		C807D5CF2AD6EB1B00798168 /* Classmate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Classmate.swift; sourceTree = "<group>"; };
+		C8ED01252AD8F6B30072F430 /* ViewController3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController3.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C807D5942AD6E5A300798168 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C807D5AD2AD6E5A500798168 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C807D5B72AD6E5A500798168 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C807D58E2AD6E5A300798168 = {
+			isa = PBXGroup;
+			children = (
+				C807D5992AD6E5A300798168 /* ClassmateAppAvila */,
+				C807D5B32AD6E5A500798168 /* ClassmateAppAvilaTests */,
+				C807D5BD2AD6E5A500798168 /* ClassmateAppAvilaUITests */,
+				C807D5982AD6E5A300798168 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C807D5982AD6E5A300798168 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C807D5972AD6E5A300798168 /* ClassmateAppAvila.app */,
+				C807D5B02AD6E5A500798168 /* ClassmateAppAvilaTests.xctest */,
+				C807D5BA2AD6E5A500798168 /* ClassmateAppAvilaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C807D5992AD6E5A300798168 /* ClassmateAppAvila */ = {
+			isa = PBXGroup;
+			children = (
+				C807D59A2AD6E5A300798168 /* AppDelegate.swift */,
+				C807D59C2AD6E5A300798168 /* SceneDelegate.swift */,
+				C807D59E2AD6E5A300798168 /* ViewController.swift */,
+				C807D5A02AD6E5A300798168 /* Main.storyboard */,
+				C807D5CD2AD6E95700798168 /* ViewController2.swift */,
+				C8ED01252AD8F6B30072F430 /* ViewController3.swift */,
+				C807D5CF2AD6EB1B00798168 /* Classmate.swift */,
+				C807D5A62AD6E5A500798168 /* Assets.xcassets */,
+				C807D5A82AD6E5A500798168 /* LaunchScreen.storyboard */,
+				C807D5AB2AD6E5A500798168 /* Info.plist */,
+				C807D5A32AD6E5A300798168 /* ClassmateAppAvila.xcdatamodeld */,
+			);
+			path = ClassmateAppAvila;
+			sourceTree = "<group>";
+		};
+		C807D5B32AD6E5A500798168 /* ClassmateAppAvilaTests */ = {
+			isa = PBXGroup;
+			children = (
+				C807D5B42AD6E5A500798168 /* ClassmateAppAvilaTests.swift */,
+			);
+			path = ClassmateAppAvilaTests;
+			sourceTree = "<group>";
+		};
+		C807D5BD2AD6E5A500798168 /* ClassmateAppAvilaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C807D5BE2AD6E5A500798168 /* ClassmateAppAvilaUITests.swift */,
+				C807D5C02AD6E5A500798168 /* ClassmateAppAvilaUITestsLaunchTests.swift */,
+			);
+			path = ClassmateAppAvilaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C807D5962AD6E5A300798168 /* ClassmateAppAvila */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C807D5C42AD6E5A500798168 /* Build configuration list for PBXNativeTarget "ClassmateAppAvila" */;
+			buildPhases = (
+				C807D5932AD6E5A300798168 /* Sources */,
+				C807D5942AD6E5A300798168 /* Frameworks */,
+				C807D5952AD6E5A300798168 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ClassmateAppAvila;
+			productName = ClassmateAppAvila;
+			productReference = C807D5972AD6E5A300798168 /* ClassmateAppAvila.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C807D5AF2AD6E5A500798168 /* ClassmateAppAvilaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C807D5C72AD6E5A500798168 /* Build configuration list for PBXNativeTarget "ClassmateAppAvilaTests" */;
+			buildPhases = (
+				C807D5AC2AD6E5A500798168 /* Sources */,
+				C807D5AD2AD6E5A500798168 /* Frameworks */,
+				C807D5AE2AD6E5A500798168 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C807D5B22AD6E5A500798168 /* PBXTargetDependency */,
+			);
+			name = ClassmateAppAvilaTests;
+			productName = ClassmateAppAvilaTests;
+			productReference = C807D5B02AD6E5A500798168 /* ClassmateAppAvilaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C807D5B92AD6E5A500798168 /* ClassmateAppAvilaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C807D5CA2AD6E5A500798168 /* Build configuration list for PBXNativeTarget "ClassmateAppAvilaUITests" */;
+			buildPhases = (
+				C807D5B62AD6E5A500798168 /* Sources */,
+				C807D5B72AD6E5A500798168 /* Frameworks */,
+				C807D5B82AD6E5A500798168 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C807D5BC2AD6E5A500798168 /* PBXTargetDependency */,
+			);
+			name = ClassmateAppAvilaUITests;
+			productName = ClassmateAppAvilaUITests;
+			productReference = C807D5BA2AD6E5A500798168 /* ClassmateAppAvilaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C807D58F2AD6E5A300798168 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					C807D5962AD6E5A300798168 = {
+						CreatedOnToolsVersion = 14.3.1;
+						LastSwiftMigration = 1500;
+					};
+					C807D5AF2AD6E5A500798168 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = C807D5962AD6E5A300798168;
+					};
+					C807D5B92AD6E5A500798168 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = C807D5962AD6E5A300798168;
+					};
+				};
+			};
+			buildConfigurationList = C807D5922AD6E5A300798168 /* Build configuration list for PBXProject "ClassmateAppAvila" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C807D58E2AD6E5A300798168;
+			productRefGroup = C807D5982AD6E5A300798168 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C807D5962AD6E5A300798168 /* ClassmateAppAvila */,
+				C807D5AF2AD6E5A500798168 /* ClassmateAppAvilaTests */,
+				C807D5B92AD6E5A500798168 /* ClassmateAppAvilaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C807D5952AD6E5A300798168 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C807D5AA2AD6E5A500798168 /* LaunchScreen.storyboard in Resources */,
+				C807D5A72AD6E5A500798168 /* Assets.xcassets in Resources */,
+				C807D5A22AD6E5A300798168 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C807D5AE2AD6E5A500798168 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C807D5B82AD6E5A500798168 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C807D5932AD6E5A300798168 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C807D5CE2AD6E95800798168 /* ViewController2.swift in Sources */,
+				C807D59F2AD6E5A300798168 /* ViewController.swift in Sources */,
+				C807D5A52AD6E5A300798168 /* ClassmateAppAvila.xcdatamodeld in Sources */,
+				C807D59B2AD6E5A300798168 /* AppDelegate.swift in Sources */,
+				C807D59D2AD6E5A300798168 /* SceneDelegate.swift in Sources */,
+				C8ED01262AD8F6B30072F430 /* ViewController3.swift in Sources */,
+				C807D5D02AD6EB1B00798168 /* Classmate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C807D5AC2AD6E5A500798168 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C807D5B52AD6E5A500798168 /* ClassmateAppAvilaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C807D5B62AD6E5A500798168 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C807D5C12AD6E5A500798168 /* ClassmateAppAvilaUITestsLaunchTests.swift in Sources */,
+				C807D5BF2AD6E5A500798168 /* ClassmateAppAvilaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C807D5B22AD6E5A500798168 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C807D5962AD6E5A300798168 /* ClassmateAppAvila */;
+			targetProxy = C807D5B12AD6E5A500798168 /* PBXContainerItemProxy */;
+		};
+		C807D5BC2AD6E5A500798168 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C807D5962AD6E5A300798168 /* ClassmateAppAvila */;
+			targetProxy = C807D5BB2AD6E5A500798168 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C807D5A02AD6E5A300798168 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C807D5A12AD6E5A300798168 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C807D5A82AD6E5A500798168 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C807D5A92AD6E5A500798168 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C807D5C22AD6E5A500798168 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C807D5C32AD6E5A500798168 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C807D5C52AD6E5A500798168 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U4GPKHMJ2U;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ClassmateAppAvila/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = clc.ClassmateAppAvila;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "ClassmateAppAvila-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C807D5C62AD6E5A500798168 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U4GPKHMJ2U;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ClassmateAppAvila/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = clc.ClassmateAppAvila;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "ClassmateAppAvila-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C807D5C82AD6E5A500798168 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U4GPKHMJ2U;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = clc.ClassmateAppAvilaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ClassmateAppAvila.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ClassmateAppAvila";
+			};
+			name = Debug;
+		};
+		C807D5C92AD6E5A500798168 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U4GPKHMJ2U;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = clc.ClassmateAppAvilaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ClassmateAppAvila.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ClassmateAppAvila";
+			};
+			name = Release;
+		};
+		C807D5CB2AD6E5A500798168 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U4GPKHMJ2U;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = clc.ClassmateAppAvilaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ClassmateAppAvila;
+			};
+			name = Debug;
+		};
+		C807D5CC2AD6E5A500798168 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U4GPKHMJ2U;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = clc.ClassmateAppAvilaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ClassmateAppAvila;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C807D5922AD6E5A300798168 /* Build configuration list for PBXProject "ClassmateAppAvila" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C807D5C22AD6E5A500798168 /* Debug */,
+				C807D5C32AD6E5A500798168 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C807D5C42AD6E5A500798168 /* Build configuration list for PBXNativeTarget "ClassmateAppAvila" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C807D5C52AD6E5A500798168 /* Debug */,
+				C807D5C62AD6E5A500798168 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C807D5C72AD6E5A500798168 /* Build configuration list for PBXNativeTarget "ClassmateAppAvilaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C807D5C82AD6E5A500798168 /* Debug */,
+				C807D5C92AD6E5A500798168 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C807D5CA2AD6E5A500798168 /* Build configuration list for PBXNativeTarget "ClassmateAppAvilaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C807D5CB2AD6E5A500798168 /* Debug */,
+				C807D5CC2AD6E5A500798168 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C807D5A32AD6E5A300798168 /* ClassmateAppAvila.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C807D5A42AD6E5A300798168 /* ClassmateAppAvila.xcdatamodel */,
+			);
+			currentVersion = C807D5A42AD6E5A300798168 /* ClassmateAppAvila.xcdatamodel */;
+			path = ClassmateAppAvila.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = C807D58F2AD6E5A300798168 /* Project object */;
+}
