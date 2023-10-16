@@ -11,6 +11,7 @@ class ViewController3: UIViewController {
 
     
     @IBOutlet weak var q1Outlet: UITextField!
+    var rando = Int.random(in: 0..<6)
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -20,6 +21,7 @@ class ViewController3: UIViewController {
     
 
     @IBAction func submitAction(_ sender: UIButton) {
+        
     }
     
 
