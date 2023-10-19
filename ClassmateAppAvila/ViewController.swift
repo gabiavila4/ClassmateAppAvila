@@ -9,7 +9,7 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    
+    var classmates : [Classmate] = []
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -26,7 +26,10 @@ class ViewController: UIViewController {
         {
             
         }
-       // let nvc = segue.destination as! ViewController2
+        //nvc = new view controller giving access to it
+     let nvc = segue.destination as! ViewController2
+        nvc.classmates2 = classmates
+        nvc.delegate = self
         
     }
     
@@ -38,6 +41,6 @@ class ViewController: UIViewController {
         performSegue(withIdentifier: "toQuiz", sender: self)
     }
     
-
+    
 }
 
