@@ -19,6 +19,7 @@
 		C807D5C12AD6E5A500798168 /* ClassmateAppAvilaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C807D5C02AD6E5A500798168 /* ClassmateAppAvilaUITestsLaunchTests.swift */; };
 		C807D5CE2AD6E95800798168 /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = C807D5CD2AD6E95700798168 /* ViewController2.swift */; };
 		C807D5D02AD6EB1B00798168 /* Classmate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C807D5CF2AD6EB1B00798168 /* Classmate.swift */; };
+		C86184082AE2C71F008F9BAD /* ViewController4.swift in Sources */ = {isa = PBXBuildFile; fileRef = C86184072AE2C71F008F9BAD /* ViewController4.swift */; };
 		C8ED01262AD8F6B30072F430 /* ViewController3.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8ED01252AD8F6B30072F430 /* ViewController3.swift */; };
 /* End PBXBuildFile section */
 
@@ -56,6 +57,7 @@
 		C807D5C02AD6E5A500798168 /* ClassmateAppAvilaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassmateAppAvilaUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		C807D5CD2AD6E95700798168 /* ViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
 		C807D5CF2AD6EB1B00798168 /* Classmate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Classmate.swift; sourceTree = "<group>"; };
+		C86184072AE2C71F008F9BAD /* ViewController4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController4.swift; sourceTree = "<group>"; };
 		C8ED01252AD8F6B30072F430 /* ViewController3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController3.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -111,6 +113,7 @@
 				C807D59C2AD6E5A300798168 /* SceneDelegate.swift */,
 				C807D59E2AD6E5A300798168 /* ViewController.swift */,
 				C807D5A02AD6E5A300798168 /* Main.storyboard */,
+				C86184072AE2C71F008F9BAD /* ViewController4.swift */,
 				C807D5CD2AD6E95700798168 /* ViewController2.swift */,
 				C8ED01252AD8F6B30072F430 /* ViewController3.swift */,
 				C807D5CF2AD6EB1B00798168 /* Classmate.swift */,
@@ -274,6 +277,7 @@
 				C807D5CE2AD6E95800798168 /* ViewController2.swift in Sources */,
 				C807D59F2AD6E5A300798168 /* ViewController.swift in Sources */,
 				C807D5A52AD6E5A300798168 /* ClassmateAppAvila.xcdatamodeld in Sources */,
+				C86184082AE2C71F008F9BAD /* ViewController4.swift in Sources */,
 				C807D59B2AD6E5A300798168 /* AppDelegate.swift in Sources */,
 				C807D59D2AD6E5A300798168 /* SceneDelegate.swift in Sources */,
 				C8ED01262AD8F6B30072F430 /* ViewController3.swift in Sources */,

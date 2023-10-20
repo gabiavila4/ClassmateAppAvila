@@ -81,6 +81,8 @@ class ViewController2: UIViewController {
         //might have to make thre seperate buttons for ratings
         
          classmates2.append(Classmate(name: nameOutlet.text!, nickname: nicknameOutlet.text!, nameRating: .mid))
+        delegate.addClassmate(_cArray: classmates2)
+        
     }
     
     @IBAction func sortAction(_ sender: UIButton) {

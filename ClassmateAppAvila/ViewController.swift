@@ -4,10 +4,14 @@
 //
 //  Created by GABRIELA AVILA on 10/11/23.
 //
-
+protocol ViewControllerDelegate{
+    func addClassmate(_cArray: [Classmate])
+}
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController: UIViewController, ViewControllerDelegate {
+    
+    
 
     var classmates : [Classmate] = []
     
@@ -22,9 +26,11 @@ class ViewController: UIViewController {
         if segue.identifier == "toMain"
         {
             
-        }else
+        }else if segue.identifier == "toTV"
         {
-            
+            let nvc = segue.destination as! ViewController4
+               nvc.classmates3 = classmates
+               nvc.delegate = self
         }
         //nvc = new view controller giving access to it
      let nvc = segue.destination as! ViewController2
@@ -41,6 +47,15 @@ class ViewController: UIViewController {
         performSegue(withIdentifier: "toQuiz", sender: self)
     }
     
+    @IBAction func listAction(_ sender: UIButton) {
+        
+        performSegue(withIdentifier: "toTV", sender: self)
+    }
     
+    
+    
+    func addClassmate(_cArray cArray: [Classmate]) {
+        classmates = cArray
+    }
 }
 
