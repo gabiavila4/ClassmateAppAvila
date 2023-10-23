@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C802687C2AE6C36700B11868 /* Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C802687B2AE6C36700B11868 /* Cell.swift */; };
 		C807D59B2AD6E5A300798168 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C807D59A2AD6E5A300798168 /* AppDelegate.swift */; };
 		C807D59D2AD6E5A300798168 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C807D59C2AD6E5A300798168 /* SceneDelegate.swift */; };
 		C807D59F2AD6E5A300798168 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C807D59E2AD6E5A300798168 /* ViewController.swift */; };
@@ -41,6 +42,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C802687B2AE6C36700B11868 /* Cell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cell.swift; sourceTree = "<group>"; };
 		C807D5972AD6E5A300798168 /* ClassmateAppAvila.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ClassmateAppAvila.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C807D59A2AD6E5A300798168 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C807D59C2AD6E5A300798168 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -113,6 +115,7 @@
 				C807D59C2AD6E5A300798168 /* SceneDelegate.swift */,
 				C807D59E2AD6E5A300798168 /* ViewController.swift */,
 				C807D5A02AD6E5A300798168 /* Main.storyboard */,
+				C802687B2AE6C36700B11868 /* Cell.swift */,
 				C86184072AE2C71F008F9BAD /* ViewController4.swift */,
 				C807D5CD2AD6E95700798168 /* ViewController2.swift */,
 				C8ED01252AD8F6B30072F430 /* ViewController3.swift */,
@@ -279,6 +282,7 @@
 				C807D5A52AD6E5A300798168 /* ClassmateAppAvila.xcdatamodeld in Sources */,
 				C86184082AE2C71F008F9BAD /* ViewController4.swift in Sources */,
 				C807D59B2AD6E5A300798168 /* AppDelegate.swift in Sources */,
+				C802687C2AE6C36700B11868 /* Cell.swift in Sources */,
 				C807D59D2AD6E5A300798168 /* SceneDelegate.swift in Sources */,
 				C8ED01262AD8F6B30072F430 /* ViewController3.swift in Sources */,
 				C807D5D02AD6EB1B00798168 /* Classmate.swift in Sources */,
