@@ -28,13 +28,7 @@ class ViewController2: UIViewController {
         super.viewDidLoad()
         
         
-        
-        var c1 = Classmate(name: "Gabi", nickname: "Grab-and-Go Gabi", nameRating: .fire)
-        var c2 = Classmate(name: "Annahlu", nickname: "Amerilu", nameRating: .fire)
-        var c3 = Classmate(name: "Avery", nickname: "Kevin", nameRating: .fire)
-        classmates2.append(c1)
-        classmates2.append(c2)
-        classmates2.append(c3)
+       
         
     }
     

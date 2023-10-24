@@ -15,8 +15,17 @@ class ViewController: UIViewController, ViewControllerDelegate {
 
     var classmates : [Classmate] = []
     
+    var c1 = Classmate(name: "Gabi", nickname: "Grab-and-Go Gabi", nameRating: .fire)
+    var c2 = Classmate(name: "Annahlu", nickname: "Amerilu", nameRating: .fire)
+    var c3 = Classmate(name: "Avery", nickname: "Kevin", nameRating: .fire)
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        classmates.append(c1)
+        classmates.append(c2)
+        classmates.append(c3)
         // Do any additional setup after loading the view.
     }
 
@@ -25,17 +34,22 @@ class ViewController: UIViewController, ViewControllerDelegate {
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "toMain"
         {
-            
+            let nvc = segue.destination as! ViewController2
+               nvc.classmates2 = classmates
+               nvc.delegate = self
         }else if segue.identifier == "toTV"
         {
-            let nvc = segue.destination as! ViewController4
-               nvc.classmates3 = classmates
-               nvc.delegate = self
+            let nvc2 = segue.destination as! ViewController4
+               nvc2.classmates3 = classmates
+               nvc2.delegate = self
+        }else if segue.identifier == "toQuiz"
+        {
+            let nvc3 = segue.destination as! ViewController3
+               nvc3.classmatesquiz = classmates
+               nvc3.delegate = self
         }
         //nvc = new view controller giving access to it
-     let nvc = segue.destination as! ViewController2
-        nvc.classmates2 = classmates
-        nvc.delegate = self
+     
         
     }
     

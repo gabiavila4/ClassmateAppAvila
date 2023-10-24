@@ -9,6 +9,9 @@ import UIKit
 
 class ViewController3: UIViewController {
 
+    var classmatesquiz : [Classmate] = []
+    
+    var delegate : ViewControllerDelegate!
     
     @IBOutlet weak var q1Outlet: UITextField!
     var rando = Int.random(in: 0..<6)

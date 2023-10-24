@@ -9,14 +9,11 @@ import Foundation
 import UIKit
 public class Cell: UITableViewCell{
     
+    
     @IBOutlet weak var nameOutlet: UILabel!
     
     @IBOutlet weak var nicknameOutlet: UILabel!
     
     @IBOutlet weak var ratingOutlet: UILabel!
-    
-    
-    
-    
     
 }
