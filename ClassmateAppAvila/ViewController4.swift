@@ -44,6 +44,15 @@ func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> U
     return cell
 }
     
+    @IBAction func addAction(_ sender: UIButton) {
+        
+        classmates3.append(Classmate(name: nameTFOutlet.text!, nickname: nickTFOutlet.text!, nameRating: .mid))
+       delegate.addClassmate(_cArray: classmates3)
+       // tableView(tableViewOutlet, numberOfRowsInSection: classmates3.count)
+       // tableView(tableViewOutlet, cellForRowAt: )
+        self.tableViewOutlet.reloadData()
+        
+    }
     
 
 }
